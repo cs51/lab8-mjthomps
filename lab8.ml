@@ -157,8 +157,8 @@ and publish the headlines. *)
 Exercise 4: Given your implementation of Event, create a new event
 called "newswire" that should pass strings to the event handlers.
 ......................................................................*)
-open WEVENT ;;
-let newswire = WEVENT.new_event () ;;
+
+let newswire = new_event () ;;
 
 (* News organizations might want to register event listeners to the
 newswire so that they might report on stories. Below are functions
